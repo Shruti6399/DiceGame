@@ -1,6 +1,8 @@
 // alert("Welcome to Dice Challenge")
-var player1 = prompt("Enter player 1 name");
-var player2 = prompt("Enter player 2 name")
+var player1raw = prompt("Enter player 1 name");
+var player2raw = prompt("Enter player 2 name");
+var player1 = player1raw.slice(0,1).toUpperCase() + player1raw.slice(1 ,player1raw.length).toLowerCase();
+var player2 = player2raw.slice(0,1).toUpperCase() + player2raw.slice(1 ,player2raw.length).toLowerCase();
 document.querySelector(".p1").innerHTML = player1;
 document.querySelector(".p2").innerHTML = player2;
  function random(){
