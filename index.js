@@ -10,8 +10,8 @@ document.querySelector(".p2").innerHTML = player2;
  }
  random();
 
-var imagesArray = ["images/dice1.png" ,"images/dice2.png" ,"images/dice3.png",
-                    "images/dice4.png","images/dice5.png" ,"images/dice6.png" ];
+var imagesArray = ["dice1.png" ,"dice2.png" ,"dice3.png",
+                    "dice4.png","dice5.png" ,"dice6.png" ];
 
 function displayimage(){
     var a = random();
